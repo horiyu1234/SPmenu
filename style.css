@@ -1,0 +1,104 @@
+#menubutton{
+		position: relative; 
+		display:inline-block;
+		float:right;
+		padding:5px;
+		margin:0px;
+	}
+
+	.humberger{
+		position: relative; 
+		width:40px;
+		height:40px;
+	}
+
+	.humberger div{
+		transition: all 0.3s;
+    	transform: rotate(0deg);
+	}
+
+	#border1{
+		height:2px;
+		width:30px; 
+		background-color:#2B7C74;
+		margin:auto; 
+		transform:translateY(10px);
+	}
+
+	#border2{
+		height:2px;
+	 	width:30px; 
+	 	background-color:#2B7C74; 
+	 	margin:auto; 
+	 	transform:translateY(20px);
+	}
+
+	#border3{
+		height:2px; 
+		width:30px; 
+		background-color:#2B7C74; 
+		margin:auto; 
+		transform:translateY(30px);
+	}
+
+
+	#cross1{
+		height:2px; 
+		width:30px; 
+		background-color:#2B7C74; 
+		margin:auto; 
+		transform:  translateY(20px) rotate(-45deg);
+	}
+
+	#cross2{
+		height:2px; 
+		width:30px; 
+		background-color:#2B7C74;
+		margin:auto; 
+		transform: translateY(20px); 
+		display:none;
+	}
+
+	#cross3{
+		height:2px; 
+		width:30px; 
+		background-color:#2B7C74; 
+		margin:auto; 
+		transform: translateY(20px) rotate(45deg);
+	}
+
+	#menubutton p
+		{text-align:center;}
+
+	#links {
+		position: relative; 
+		display:none;
+		float:right;
+		width:40%;
+		margin:0px;
+		padding:0px;
+	}
+
+	#links a{
+		display: block; 
+		position: relative;
+		transform:translateY(-10px);
+	} 
+
+
+	#links a p{
+		color: #38847C; 
+		display: block; 
+		text-align: center; 
+		line-height: 2rem; 
+		border-bottom:solid 1px #878787; 
+		font-size: 1.5rem;
+		padding: 5px;
+		background-color: white;
+		box-sizing:border-box;
+		
+	}
+
+	#links a p:hover{
+		color: #8DD1CA;
+	}
